@@ -1,0 +1,58 @@
+"Mensaje no sé hola JJ *Gojideth"
+
+
+Servidor -> "Mensaje no sé hola JJ"  -> Mensaje
+            "Gojideth" -> Destinatario
+
+	private String redireccionar(String mensaje, String destinatario){
+	    String out = " ";
+	    for(Client client : arrayList){
+	        if(client.getNickname().equals(destinatario.lowerCase()){
+	            out = mensaje;
+	            USER :  NICK (2 users = socket / socket )
+	        }
+	    }
+	    return out;
+	}
+
+	private void(String mensaje){
+	    DataOutputStream.write(mensaje);
+	}
+
+
+
+
+	data[ ] =string.split(" \ ")
+	String message = data[0]
+	String destinatario = data[1]
+}
+
+public void checkMessageForMe(String destinatario, String mensaje){
+	if(destinatario.equals(myNickName){
+		Sout(mensaje)
+	}else{
+		mensaje = " " ;
+	}
+-------------------------------------------------------------------------------------
+
+
+
+
+        Gojideth                Server              Arcuca
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
